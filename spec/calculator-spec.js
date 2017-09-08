@@ -50,4 +50,14 @@ describe('CalculatorTests', function() {
 
   });
 
+  it('should notify the user if their age is over the estimated life expectancy', function() {
+    let calculator = new Calculator();
+    let age = 100;
+    let sex = "female";
+    let continent = "Asia";
+    let planet = "Jupiter";
+    expect(calculator.lifeExpectOnPlanet(age,sex,continent,planet)).toEqual("Your age is past the estimated life expectancy, please get younger.");
+
+  });
+
 });
