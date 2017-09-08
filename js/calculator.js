@@ -1,3 +1,5 @@
+var moment = require('moment');
+
 export class Calculator {
 constructor () {
 }

@@ -10,7 +10,9 @@ describe('CalculatorTests', function() {
 
   it('should calculate the seconds between two dates', function() {
     var calculator = new Calculator();
-    expect(calculator.secondsBetweenTwoDates([2007, 0, 29],[2007, 0, 28])).toEqual(86400);
+    var a = [2007, 0, 29];
+    var b = [2007, 0, 28];
+    expect(calculator.secondsBetweenTwoDates(a,b)).toEqual(86400);
 
   });
 

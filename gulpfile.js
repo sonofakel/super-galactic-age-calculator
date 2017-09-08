@@ -8,6 +8,7 @@ var del = require('del');
 var jshint = require('gulp-jshint');
 var babelify = require("babelify");
 var browserSync = require('browser-sync').create();
+var moment = require('moment');
 
 var lib = require('bower-files')({
   "overrides":{
@@ -22,6 +23,8 @@ var lib = require('bower-files')({
 });
 
 var buildProduction = utilities.env.production;
+
+moment().format();
 
 gulp.task('concatInterface', function(){
   return gulp.src(['./js/*-interface.js'])
