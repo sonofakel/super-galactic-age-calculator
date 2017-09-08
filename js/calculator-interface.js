@@ -6,7 +6,7 @@ $(function() {
     let ageYear = $('#age-seconds').val();
     let newCalculator = new Calculator();
     let output = newCalculator.ageInSeconds(ageYear);
-    $('#solution1').text(output);
+    $('#solution1').text(output + " seconds");
     });
 });
 
@@ -26,7 +26,7 @@ $(function() {
 
     let newCalculator = new Calculator();
     let output = newCalculator.secondsBetweenTwoDates(date2, date1);
-    $('#solution2').text(output);
+    $('#solution2').text(output + " seconds");
     });
 
 });
@@ -37,7 +37,7 @@ $(function() {
     let ageYear = $('#age-mercury').val();
     let newCalculator = new Calculator();
     let output = newCalculator.ageInYearsOnMercury(ageYear);
-    $('#solution3').text(output);
+    $('#solution3').text(output + " years old");
     });
 });
 
@@ -47,7 +47,7 @@ $(function() {
     let ageYear = $('#age-venus').val();
     let newCalculator = new Calculator();
     let output = newCalculator.ageInYearsOnVenus(ageYear);
-    $('#solution4').text(output);
+    $('#solution4').text(output + " years old");
     });
 });
 
@@ -57,7 +57,7 @@ $(function() {
     let ageYear = $('#age-mars').val();
     let newCalculator = new Calculator();
     let output = newCalculator.ageInYearsOnMars(ageYear);
-    $('#solution5').text(output);
+    $('#solution5').text(output + " years old");
     });
 });
 
@@ -67,7 +67,7 @@ $(function() {
     let ageYear = $('#age-jupiter').val();
     let newCalculator = new Calculator();
     let output = newCalculator.ageInYearsOnJupiter(ageYear);
-    $('#solution6').text(output);
+    $('#solution6').text(output + " years old");
     });
 });
 
@@ -80,6 +80,6 @@ $(function() {
     let planet = $('#planet-left').val();
     let newCalculator = new Calculator();
     let output = newCalculator.lifeExpectOnPlanet(ageYear,sex,region,planet);
-    $('#solution7').text(output + " more years on " + planet );
+    $('#solution7').text(output);
     });
 });

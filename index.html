@@ -2,6 +2,7 @@
 <html>
   <head>
     <link rel="stylesheet" href="build/css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
     <script src="build/js/vendor.min.js"></script>
     <script type="text/javascript" src="build/js/app.js"></script>
     <script src="bower_components/moment/min/moment.min.js"></script>
@@ -9,19 +10,31 @@
   </head>
   <body>
     <div class="container">
+      <div class="jumbotron">
         <h1>Super Galactic Age Calculator</h1>
+      </div>
+      <div class="row vertical-align">
+        <div class="col-md-6">
         <h2>Find your age in seconds:</h2>
         <form id="years-to-seconds">
           <div class="form-group">
             <label for="age-seconds">Enter your age:</label>
             <input id="age-seconds" type="number">
-            <button class="btn-success" type="submit">Submit</button>
+            <button class="btn btn-success" type="submit">Submit</button>
           </div>
         </form>
+      </div>
+      <div class="col-md-6 solution">
         <ul id="solution1"></ul>
+      </div>
+        </div>
+        <div class="row vertical-align">
+          <div class="col-md-9">
         <h2>Find the amount a seconds between two dates:</h2>
         <form id="two-dates-seconds">
+
           <div class="form-group">
+            <div class="col-md-4">
 
             <label for="year1">Enter a year:</label>
             <input id="year1" type="number">
@@ -40,9 +53,13 @@
               <option value="10">November</option>
               <option value="11">December</option>
             </select>
+            <br>
             <label for="day1">Enter a day:</label>
             <input id="day1" type="number">
-
+          </div>
+          <div class="col-md-1">
+          </div>
+          <div class="col-md-4">
             <label for="year2">Enter a year:</label>
             <input id="year2" type="number">
             <label for="month2">Enter a month:</label>
@@ -60,13 +77,19 @@
               <option value="10">November</option>
               <option value="11">December</option>
             </select>
+            <br>
             <label for="day2">Enter a day:</label>
             <input id="day2" type="number">
 
-            <button class="btn-success" type="submit">Submit</button>
+            <button class="btn btn-success amount-butt" type="submit">Submit</button>
+          </div>
           </div>
         </form>
+      </div>
+      <div class="col-md-6 solution">
         <ul id="solution2"></ul>
+      </div>
+    </div>
 
 
         <h2>Find how old you are on Mercury:</h2>
@@ -74,7 +97,7 @@
           <div class="form-group">
             <label for="age-mercury">Enter your age:</label>
             <input id="age-mercury" type="number">
-            <button class="btn-success" type="submit">Submit</button>
+            <button class="btn btn-success" type="submit">Submit</button>
           </div>
         </form>
         <ul id="solution3"></ul>
@@ -84,7 +107,7 @@
           <div class="form-group">
             <label for="age-venus">Enter your age:</label>
             <input id="age-venus" type="number">
-            <button class="btn-success" type="submit">Submit</button>
+            <button class="btn btn-success" type="submit">Submit</button>
           </div>
         </form>
         <ul id="solution4"></ul>
@@ -94,7 +117,7 @@
           <div class="form-group">
             <label for="age-mars">Enter your age:</label>
             <input id="age-mars" type="number">
-            <button class="btn-success" type="submit">Submit</button>
+            <button class="btn btn-success" type="submit">Submit</button>
           </div>
         </form>
         <ul id="solution5"></ul>
@@ -104,7 +127,7 @@
           <div class="form-group">
             <label for="age-jupiter">Enter your age:</label>
             <input id="age-jupiter" type="number">
-            <button class="btn-success" type="submit">Submit</button>
+            <button class="btn btn-success" type="submit">Submit</button>
           </div>
         </form>
         <ul id="solution6"></ul>
@@ -137,7 +160,7 @@
             </select>
 
 
-            <button class="btn-success" type="submit">Submit</button>
+            <button class="btn btn-success" type="submit">Submit</button>
           </div>
         </form>
         <ul id="solution7"></ul>

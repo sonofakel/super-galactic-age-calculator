@@ -1,0 +1,27 @@
+.jumbotron {
+  text-align: center;
+}
+
+
+.container {
+  margin-bottom: 10%;
+}
+
+.solution {
+  font-size: 24px;
+
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+
+.btn-success {
+  margin: 1%;
+}
+
+.amount-butt {
+  margin-top: 10px;;
+}

@@ -47,56 +47,56 @@ lifeExpectOnPlanet(age,sex,continent,planet) {
 
 
   if (sex === "male" && continent === "North America" && planet === "Mercury") {
-    let lifeExpect = 77;
+    const lifeExpect = 77;
 
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth /.24));
+      return (Math.floor(leftOnEarth /.24) + " more years on " + planet);
     } else {
       return "Your age is past the estimated life expectancy, please get younger.";
     }
 
   } else if (sex === "female" && continent == "North America" && planet ==="Mercury") {
-      let lifeExpect = 81;
+      const lifeExpect = 81;
       if (age <= lifeExpect) {
         let leftOnEarth = (lifeExpect - age);
-        return (Math.floor(leftOnEarth /.24));
+        return (Math.floor(leftOnEarth /.24) + " more years on " + planet);
       } else {
         return "Your age is past the estimated life expectancy, please get younger.";
       }
 
   } else if (sex === "male" && continent == "Latin America" && planet ==="Mercury") {
-      let lifeExpect = 73;
+      const lifeExpect = 73;
       if (age <= lifeExpect) {
         let leftOnEarth = (lifeExpect - age);
-        return (Math.floor(leftOnEarth /.24));
+        return (Math.floor(leftOnEarth /.24) + " more years on " + planet);
       } else {
         return "Your age is past the estimated life expectancy, please get younger.";
       }
 
   } else if (sex === "female" && continent == "Latin America" && planet ==="Mercury") {
-      let lifeExpect = 79;
+      const lifeExpect = 79;
       if (age <= lifeExpect) {
         let leftOnEarth = (lifeExpect - age);
-        return (Math.floor(leftOnEarth /.24));
+        return (Math.floor(leftOnEarth /.24) + " more years on " + planet);
       } else {
         return "Your age is past the estimated life expectancy, please get younger.";
       }
 
   } else if (sex === "male" && continent == "Asia" && planet ==="Mercury") {
-      let lifeExpect = 65;
+      const lifeExpect = 65;
       if (age <= lifeExpect) {
         let leftOnEarth = (lifeExpect - age);
-        return (Math.floor(leftOnEarth /.24));
+        return (Math.floor(leftOnEarth /.24) + " more years on " + planet);
       } else {
         return "Your age is past the estimated life expectancy, please get younger.";
       }
 
   } else if (sex === "female" && continent == "Asia" && planet ==="Mercury") {
-      let lifeExpect = 70;
+      const lifeExpect = 70;
       if (age <= lifeExpect) {
         let leftOnEarth = (lifeExpect - age);
-        return (Math.floor(leftOnEarth /.24));
+        return (Math.floor(leftOnEarth /.24) + " more years on " + planet);
       } else {
         return "Your age is past the estimated life expectancy, please get younger.";
       }
@@ -104,53 +104,53 @@ lifeExpectOnPlanet(age,sex,continent,planet) {
 
 
   } else if (sex === "male" && continent === "North America" && planet === "Venus") {
-    let lifeExpect = 77;
+    const lifeExpect = 77;
     if (age <= lifeExpect) {
       let leftOnEarth = (lifeExpect - age);
-      return (Math.floor(leftOnEarth /.62));
+      return (Math.floor(leftOnEarth /.62) + " more years on " + planet);
     } else {
       return "Your age is past the estimated life expectancy, please get younger.";
     }
 
   } else if (sex === "female" && continent == "North America" && planet ==="Venus") {
-      let lifeExpect = 81;
+      const lifeExpect = 81;
       if (age <= lifeExpect) {
         let leftOnEarth = (lifeExpect - age);
-        return (Math.floor(leftOnEarth /.62));
+        return (Math.floor(leftOnEarth /.62) + " more years on " + planet);
       } else {
         return "Your age is past the estimated life expectancy, please get younger.";
       }
 
   } else if (sex === "male" && continent == "Latin America" && planet ==="Venus") {
-      let lifeExpect = 73;
+      const lifeExpect = 73;
       if (age <= lifeExpect) {
         let leftOnEarth = (lifeExpect - age);
-        return (Math.floor(leftOnEarth /.62));
+        return (Math.floor(leftOnEarth /.62) + " more years on " + planet);
       } else {
         return "Your age is past the estimated life expectancy, please get younger.";
       }
   } else if (sex === "female" && continent == "Latin America" && planet ==="Venus") {
-      let lifeExpect = 79;
+      const lifeExpect = 79;
       if (age <= lifeExpect) {
         let leftOnEarth = (lifeExpect - age);
-        return (Math.floor(leftOnEarth /.62));
+        return (Math.floor(leftOnEarth /.62) + " more years on " + planet);
       } else {
         return "Your age is past the estimated life expectancy, please get younger.";
       }
 
   } else if (sex === "male" && continent == "Asia" && planet ==="Venus") {
-      let lifeExpect = 65;
+      const lifeExpect = 65;
       if (age <= lifeExpect) {
         let leftOnEarth = (lifeExpect - age);
-        return (Math.floor(leftOnEarth /.62));
+        return (Math.floor(leftOnEarth /.62) + " more years on " + planet);
       } else {
         return "Your age is past the estimated life expectancy, please get younger.";
       }
   } else if (sex === "female" && continent == "Asia" && planet ==="Venus") {
-      let lifeExpect = 70;
+      const lifeExpect = 70;
       if (age <= lifeExpect) {
         let leftOnEarth = (lifeExpect - age);
-        return (Math.floor(leftOnEarth /.62));
+        return (Math.floor(leftOnEarth /.62) + " more years on " + planet);
       } else {
         return "Your age is past the estimated life expectancy, please get younger.";
       }
@@ -158,52 +158,52 @@ lifeExpectOnPlanet(age,sex,continent,planet) {
 
 
     } else if (sex === "male" && continent === "North America" && planet === "Mars") {
-      let lifeExpect = 77;
+      const lifeExpect = 77;
       if (age <= lifeExpect) {
         let leftOnEarth = (lifeExpect - age);
-        return (Math.floor(leftOnEarth /1.88));
+        return (Math.floor(leftOnEarth /1.88) + " more years on " + planet);
       } else {
         return "Your age is past the estimated life expectancy, please get younger.";
       }
     } else if (sex === "female" && continent == "North America" && planet ==="Mars") {
-        let lifeExpect = 81;
+        const lifeExpect = 81;
         if (age <= lifeExpect) {
           let leftOnEarth = (lifeExpect - age);
-          return (Math.floor(leftOnEarth /1.88));
+          return (Math.floor(leftOnEarth /1.88) + " more years on " + planet);
         } else {
           return "Your age is past the estimated life expectancy, please get younger.";
         }
 
     } else if (sex === "male" && continent == "Latin America" && planet ==="Mars") {
-        let lifeExpect = 73;
+        const lifeExpect = 73;
         if (age <= lifeExpect) {
           let leftOnEarth = (lifeExpect - age);
-          return (Math.floor(leftOnEarth /1.88));
+          return (Math.floor(leftOnEarth /1.88) + " more years on " + planet);
         } else {
           return "Your age is past the estimated life expectancy, please get younger.";
         }
     } else if (sex === "female" && continent == "Latin America" && planet ==="Mars") {
-        let lifeExpect = 79;
+        const lifeExpect = 79;
         if (age <= lifeExpect) {
           let leftOnEarth = (lifeExpect - age);
-          return (Math.floor(leftOnEarth /1.88));
+          return (Math.floor(leftOnEarth /1.88) + " more years on " + planet);
         } else {
           return "Your age is past the estimated life expectancy, please get younger.";
         }
 
     } else if (sex === "male" && continent == "Asia" && planet ==="Mars") {
-        let lifeExpect = 65;
+        const lifeExpect = 65;
         if (age <= lifeExpect) {
           let leftOnEarth = (lifeExpect - age);
-          return (Math.floor(leftOnEarth /1.88));
+          return (Math.floor(leftOnEarth /1.88) + " more years on " + planet);
         } else {
           return "Your age is past the estimated life expectancy, please get younger.";
         }
     } else if (sex === "female" && continent == "Asia" && planet ==="Mars") {
-        let lifeExpect = 70;
+        const lifeExpect = 70;
         if (age <= lifeExpect) {
           let leftOnEarth = (lifeExpect - age);
-          return (Math.floor(leftOnEarth /1.88));
+          return (Math.floor(leftOnEarth /1.88) + " more years on " + planet);
         } else {
           return "Your age is past the estimated life expectancy, please get younger.";
         }
@@ -211,52 +211,52 @@ lifeExpectOnPlanet(age,sex,continent,planet) {
 
 
       } else if (sex === "male" && continent === "North America" && planet === "Jupiter") {
-        let lifeExpect = 77;
+        const lifeExpect = 77;
         if (age <= lifeExpect) {
           let leftOnEarth = (lifeExpect - age);
-          return (Math.floor(leftOnEarth /11.86 ));
+          return (Math.floor(leftOnEarth /11.86 ) + " more years on " + planet);
         } else {
           return "Your age is past the estimated life expectancy, please get younger.";
         }
       } else if (sex === "female" && continent == "North America" && planet ==="Jupiter") {
-          let lifeExpect = 81;
+          const lifeExpect = 81;
           if (age <= lifeExpect) {
             let leftOnEarth = (lifeExpect - age);
-            return (Math.floor(leftOnEarth /11.86 ));
+            return (Math.floor(leftOnEarth /11.86 ) + " more years on " + planet);
           } else {
             return "Your age is past the estimated life expectancy, please get younger.";
           }
 
       } else if (sex === "male" && continent == "Latin America" && planet ==="Jupiter") {
-          let lifeExpect = 73;
+          const lifeExpect = 73;
           if (age <= lifeExpect) {
             let leftOnEarth = (lifeExpect - age);
-            return (Math.floor(leftOnEarth /11.86 ));
+            return (Math.floor(leftOnEarth /11.86 ) + " more years on " + planet);
           } else {
             return "Your age is past the estimated life expectancy, please get younger.";
           }
       } else if (sex === "female" && continent == "Latin America" && planet ==="Jupiter") {
-          let lifeExpect = 79;
+          const lifeExpect = 79;
           if (age <= lifeExpect) {
             let leftOnEarth = (lifeExpect - age);
-            return (Math.floor(leftOnEarth /11.86 ));
+            return (Math.floor(leftOnEarth /11.86 ) + " more years on " + planet);
           } else {
             return "Your age is past the estimated life expectancy, please get younger.";
           }
 
       } else if (sex === "male" && continent == "Asia" && planet ==="Jupiter") {
-          let lifeExpect = 65;
+          const lifeExpect = 65;
           if (age <= lifeExpect) {
             let leftOnEarth = (lifeExpect - age);
-            return (Math.floor(leftOnEarth /11.86 ));
+            return (Math.floor(leftOnEarth /11.86 ) + " more years on " + planet);
           } else {
             return "Your age is past the estimated life expectancy, please get younger.";
           }
       } else if (sex === "female" && continent == "Asia" && planet ==="Jupiter") {
-          let lifeExpect = 70;
+          const lifeExpect = 70;
           if (age <= lifeExpect) {
             let leftOnEarth = (lifeExpect - age);
-            return (Math.floor(leftOnEarth /11.86 ));
+            return (Math.floor(leftOnEarth /11.86 ) + " more years on " + planet);
           } else {
             return "Your age is past the estimated life expectancy, please get younger.";
           }

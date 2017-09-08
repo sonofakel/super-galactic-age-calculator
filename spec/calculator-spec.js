@@ -46,7 +46,7 @@ describe('CalculatorTests', function() {
     let sex = "male";
     let continent = "North America";
     let planet = "Mercury";
-    expect(calculator.lifeExpectOnPlanet(age,sex,continent,planet)).toEqual(245);
+    expect(calculator.lifeExpectOnPlanet(age,sex,continent,planet)).toEqual(245 + " more years on " + planet);
 
   });
 
