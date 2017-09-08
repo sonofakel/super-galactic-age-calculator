@@ -80,6 +80,6 @@ $(function() {
     let planet = $('#planet-left').val();
     let newCalculator = new Calculator();
     let output = newCalculator.lifeExpectOnPlanet(ageYear,sex,region,planet);
-    $('#solution7').text(output);
+    $('#solution7').text(output + " more years on " + planet );
     });
 });
