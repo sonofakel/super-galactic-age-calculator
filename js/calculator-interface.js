@@ -50,3 +50,36 @@ $(function() {
     $('#solution4').text(output);
     });
 });
+
+$(function() {
+  $('#years-on-mars').submit(function(event) {
+    event.preventDefault();
+    let ageYear = $('#age-mars').val();
+    let newCalculator = new Calculator();
+    let output = newCalculator.ageInYearsOnMars(ageYear);
+    $('#solution5').text(output);
+    });
+});
+
+$(function() {
+  $('#years-on-jupiter').submit(function(event) {
+    event.preventDefault();
+    let ageYear = $('#age-jupiter').val();
+    let newCalculator = new Calculator();
+    let output = newCalculator.ageInYearsOnJupiter(ageYear);
+    $('#solution6').text(output);
+    });
+});
+
+$(function() {
+  $('#years-left').submit(function(event) {
+    event.preventDefault();
+    let ageYear = $('#age-earth').val();
+    let sex = $('#sex-left').val();
+    let region = $('#region-left').val();
+    let planet = $('#planet-left').val();
+    let newCalculator = new Calculator();
+    let output = newCalculator.lifeExpectOnPlanet(ageYear,sex,region,planet);
+    $('#solution7').text(output);
+    });
+});
