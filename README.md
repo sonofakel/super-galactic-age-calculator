@@ -27,7 +27,7 @@ _This web app will take user entered data such as age or a time span to calculat
 ## Setup/Installation Requirements
 
 * _Clone repo and install npm and bower from terminal `install npm` & `install bower`_
-* 
+
 
 ## Known Bugs
 
