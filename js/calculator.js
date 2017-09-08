@@ -30,6 +30,18 @@ ageInYearsOnVenus(age) {
   return ageOnVenus;
 }
 
+ageInYearsOnMars(age) {
+  let ageOnMars = (Math.floor(age / 1.88 ));
+
+  return ageOnMars;
+}
+
+ageInYearsOnJupiter(age) {
+  let ageOnJupiter = (Math.floor(age / 11.86 ));
+
+  return ageOnJupiter;
+}
+
 
 
 }
