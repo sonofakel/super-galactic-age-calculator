@@ -1,5 +1,14 @@
+body {
+  color: white;
+  letter-spacing: 1px;
+  background-image: url("../img/bkg_img.jpg");
+}
+
+
 .jumbotron {
   text-align: center;
+  color: white;
+  background-color: black;
 }
 
 
@@ -24,4 +33,14 @@
 
 .amount-butt {
   margin-top: 10px;;
+}
+
+select{
+  color:black;
+  margin-bottom: 6%;
+}
+
+input {
+  color: black;
+  margin-bottom: 6%;
 }
