@@ -5,19 +5,66 @@
     <script src="build/js/vendor.min.js"></script>
     <script type="text/javascript" src="build/js/app.js"></script>
     <script src="bower_components/moment/min/moment.min.js"></script>
-    <title>TitleOfSite</title>
+    <title>Super Galactic Age Calculator</title>
   </head>
   <body>
     <div class="container">
-        <h1>TitleOfSite</h1>
-        <form id="name-of-form">
+        <h1>Super Galactic Age Calculator</h1>
+        <form id="years-to-seconds">
           <div class="form-group">
-            <label for="field-id">Enter a number:</label>
-            <input id="field-id" type="number">
+            <label for="age-seconds">Enter your age:</label>
+            <input id="age-seconds" type="number">
             <button class="btn-success" type="submit">Submit</button>
           </div>
         </form>
-        <ul id="solution"></ul>
+        <ul id="solution1"></ul>
+
+        <form id="two-dates-seconds">
+          <div class="form-group">
+
+            <label for="year1">Enter a year:</label>
+            <input id="year1" type="number">
+            <select id="month1">
+              <option value="0">January</option>
+              <option value="1">February</option>
+              <option value="2">March</option>
+              <option value="3">April</option>
+              <option value="4">May</option>
+              <option value="5">June</option>
+              <option value="6">July</option>
+              <option value="7">August</option>
+              <option value="8">September</option>
+              <option value="9">October</option>
+              <option value="10">November</option>
+              <option value="11">December</option>
+            </select>
+            <label for="day1">Enter a day:</label>
+            <input id="day1" type="number">
+
+            <label for="year2">Enter a year:</label>
+            <input id="year2" type="number">
+            <select id="month2">
+              <option value="0">January</option>
+              <option value="1">February</option>
+              <option value="2">March</option>
+              <option value="3">April</option>
+              <option value="4">May</option>
+              <option value="5">June</option>
+              <option value="6">July</option>
+              <option value="7">August</option>
+              <option value="8">September</option>
+              <option value="9">October</option>
+              <option value="10">November</option>
+              <option value="11">December</option>
+            </select>
+            <label for="day2">Enter a day:</label>
+            <input id="day2" type="number">
+
+            <button class="btn-success" type="submit">Submit</button>
+          </div>
+        </form>
+        <ul id="solution2"></ul>
+
       </div>
   </body>
 </html>

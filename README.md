@@ -14,7 +14,7 @@ _This web app will take user entered data such as age or a time span to calculat
 | User Behavior | Input | Output |
 |----|----|----|  
 | A user enters their age can convert it into seconds | 18 years | 567648000 seconds |
-| A user enters two dates and can determine the difference in seconds between the two  |January 28, 2007 - January 29, 2007 | 34,300,800 seconds |
+| A user enters two dates and can determine the difference in seconds between the two  |January 28, 2007 - January 29, 2007 | 86400 seconds |
 | A user enters their age in human years and it's calculated to Mercury years | 18 Earth years | 75 Mercurian years|
 | A user enters their age in human years and it's calculated to Venus years | 18 Earth years  | 29 Venusian years|
 | A user enters their age in human years and it's calculated to Mars years | 18 Earth years  | 9 Martian years|
