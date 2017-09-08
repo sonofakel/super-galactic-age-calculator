@@ -30,3 +30,23 @@ $(function() {
     });
 
 });
+
+$(function() {
+  $('#years-on-mercury').submit(function(event) {
+    event.preventDefault();
+    let ageYear = $('#age-mercury').val();
+    let newCalculator = new Calculator();
+    let output = newCalculator.ageInYearsOnMercury(ageYear);
+    $('#solution3').text(output);
+    });
+});
+
+$(function() {
+  $('#years-on-venus').submit(function(event) {
+    event.preventDefault();
+    let ageYear = $('#age-venus').val();
+    let newCalculator = new Calculator();
+    let output = newCalculator.ageInYearsOnVenus(ageYear);
+    $('#solution4').text(output);
+    });
+});
