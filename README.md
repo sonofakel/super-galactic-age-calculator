@@ -6,7 +6,7 @@
 
 ## Description
 
-_This web app will take user entered data such as age or a time span to calculate their age on different planets, as well as their age in seconds on earth._
+_This web app will take user entered data such as age or a time span to calculate their age on different planets, as well as their age in seconds on earth. Future features will include a finger-print scanner to tell how old your are._
 
 
 ### User Story
