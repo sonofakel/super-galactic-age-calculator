@@ -40,4 +40,14 @@ describe('CalculatorTests', function() {
 
   });
 
+  it('should calculate how long someone has left to live in each planet based on location and sex', function() {
+    let calculator = new Calculator();
+    let age = 18;
+    let sex = "male";
+    let continent = "North America";
+    let planet = "Mercury";
+    expect(calculator.lifeExpectOnPlanet(age,sex,continent,planet)).toEqual(245);
+
+  });
+
 });
