@@ -18,4 +18,18 @@ secondsBetweenTwoDates(date1,date2) {
 
 }
 
+ageInYearsOnMercury(age) {
+  let ageOnMercury = (Math.floor(age / .24));
+
+  return ageOnMercury;
+}
+
+ageInYearsOnVenus(age) {
+  let ageOnVenus = (Math.floor(age / .62));
+
+  return ageOnVenus;
+}
+
+
+
 }
